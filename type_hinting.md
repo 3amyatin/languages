@@ -1,5 +1,7 @@
-https://realpython.com/python-type-checking
-https://docs.python.org/3/library/typing.html
+* https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html
+* https://realpython.com/python-type-checking
+* https://docs.python.org/3/library/typing.html
+
 # Basics
 ```python
 var: str = 'bla'
