@@ -1,3 +1,6 @@
+# Testing
+* https://realpython.com/python-testing/
+
 # PyCharm
 * https://www.jetbrains.com/help/pycharm/testing-your-first-python-application.html
 
