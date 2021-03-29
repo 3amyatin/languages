@@ -9,6 +9,7 @@
 
 # pytest
 * https://www.jetbrains.com/help/pycharm/pytest.html
+* https://realpython.com/pytest-python-testing/
 * https://docs.pytest.org/en/latest
 
 ```python
