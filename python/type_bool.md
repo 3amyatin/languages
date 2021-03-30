@@ -15,6 +15,7 @@
 ## not
 ## or
 return first truthy statement or the last one
+
 lazy execution = statements after first True are **NOT** executed
 ```python
 X or Y === X if X else Y
