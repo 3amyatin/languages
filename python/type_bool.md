@@ -3,11 +3,10 @@
 ## Definition
 
 ```python
-obj.__bool__() == False or obj.__len__() == 0
-None or False
-0 or 0.0 or 0j
-Decimal(0) or Fraction(0, 1)
-"" or () or [] or {} or set() or range(0)
+None or False  # constants
+0 or 0.0 or 0j or Decimal(0) or Fraction(0, 1)  # numbers
+"" or () or [] or {} or set() or range(0) # collections
+obj.__bool__() == False or obj.__len__() == 0  # objects
 ```
 
 # Operators
