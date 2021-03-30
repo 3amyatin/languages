@@ -14,15 +14,13 @@
 # Operators
 ## not
 ## or
+return first truthy statement or the last one
+lazy execution = statements after first True are **NOT** executed
 ```python
 X or Y === X if X else Y
 
 A or B or C or D === A if A else B if B else C if C else D
-```
-lazy execution = statements after first True are **NOT** executed
 
-### Examples
-```python
 max(lst or [0])  # Return 0 for empty list and not raises an Exception
 
 x = a or b or None
