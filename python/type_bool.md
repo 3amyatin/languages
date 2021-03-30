@@ -2,13 +2,22 @@
 * https://docs.python.org/3/library/stdtypes.html#truth-value-testing
 ## Definition
 
-* `obj.__bool__() == False`
-* `obj.__len__() == 0`
-
-## Examples
-* constants None and False
-* zero numbers: `0`, `0.0`, `0j`, `Decimal(0)`, `Fraction(0, 1)`
-* empty sequences and collections: `''`, `()`, `[]`, `{}`, `set()`, `range(0)`
+```python
+obj.__bool__() == False
+obj.__len__() == 0
+None
+False
+0
+0.0
+0j
+Decimal(0)
+Fraction(0, 1)
+""
+()
+[]
+{}
+set()
+range(0)
 
 
 # Operators
