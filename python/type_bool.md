@@ -23,8 +23,8 @@ A or B or C or D === A if A else B if B else C if C else D
 
 max(lst or [0])  # Return 0 for empty list and not raises an Exception
 
+x = a or default  # Default value
 x = a or b or None
-x = a or default  # Default values for Variables
 
 def func(lst=None):  # Never put mutable values as default argument's value
   lst = lst or []
