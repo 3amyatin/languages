@@ -1,5 +1,17 @@
 # Testing
-* https://realpython.com/python-testing/
+
+
+1. In main()
+```python
+if __name__ == "__main__":
+  # test hier
+```
+
+2. with doctest
+    * https://docs.python.org/3/library/doctest.html
+
+3. separate test files with unittest, pytest  etc
+    * https://realpython.com/python-testing/
 
 # PyCharm
 * https://www.jetbrains.com/help/pycharm/testing-your-first-python-application.html
