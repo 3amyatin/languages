@@ -3,6 +3,7 @@
 * https://mypy.readthedocs.io/en/stable/builtin_types.html
 * https://realpython.com/python-type-checking
 * https://docs.python.org/3/library/typing.html
+* https://docs.python.org/3/library/typing.html#newtype
 
 # Basics
 ```python
@@ -89,5 +90,3 @@ Callable[[int, Exception], None]
 
 ```
 
-# Also
-https://docs.python.org/3/library/typing.html#newtype
