@@ -82,6 +82,19 @@ Callable[[int, Exception], None]
 
 ```
 
+# type import without circular referrence
+```python
+from typing import TYPE_CHECKING
+if TYPE_CHECKING:
+    from . import MyClass
+
+class MyClass2
+  varname: MyClass
+```
+
+
+
+
 # More
 * Types [types.md](types.md)
 * https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html
