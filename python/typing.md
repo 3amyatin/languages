@@ -88,7 +88,7 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from . import MyClass
 
-class MyClass2
+class MyClass2:
   varname: MyClass
 ```
 
