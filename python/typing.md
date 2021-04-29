@@ -50,37 +50,36 @@ elems: Sequence[float]
 ```
 
 
-# Anything and Nothing
-## Any
+# Any
 ```python
 from typing import Any, Sequence
 Sequence[Any] === Sequence
 ```
 
-## None
+# None
 ```python
 return None
 ```
 
-## NoReturn
+# NoReturn
 means a function never reaching the end (probably due to an exception
 ```python
 ```
 
-# Default value - Optional
+# Optional
+default value
 ```python
 from typing import Optional
 def player_order(start: Optional[str] = None) -> str:
   pass
 ```
 
-# Alternative - Union
+# Union
+an alternative
 ```python
 from typing import Union
 var: Union[None, str]
 ```
-
-
 
 # Callable
 method or function used without ()
