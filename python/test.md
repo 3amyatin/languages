@@ -15,6 +15,7 @@ if __name__ == "__main__":
 
 # PyCharm
 * https://www.jetbrains.com/help/pycharm/testing-your-first-python-application.html
+* https://www.jetbrains.com/help/pycharm/pytest.html
 
 # Template
 * https://blog.miguelgrinberg.com/post/how-to-write-unit-tests-in-python-part-1-fizz-buzz
