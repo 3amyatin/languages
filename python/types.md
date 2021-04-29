@@ -1,4 +1,4 @@
-Type hinting [typing.md](typing.md)
+* Type hinting [typing.md](typing.md)
 
 # Hack existing types
 ```python
