@@ -2,5 +2,8 @@
 ```
 git help  # in general
 git help tutorial  # the very basics
-git help blame  # for some specific command
+
+# for some specific command
+git help blame
+man git-blame
 ```
