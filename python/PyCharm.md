@@ -13,12 +13,21 @@
 
 ## Navigating in code
 * **Ctrl-Alt-Left/Right** navigate between last opened files
+* Shift-Shift "history" - extra layer before git
 
 * cursor at object + **Ctrl-B** / Mouse click - go to object definition
-* **Ctrl-P** hint on function arguments
-* **Ctrl-Shift-P** hint on object type
+* **Ctrl-P** function arguments
+* **Ctrl-Q** object documentation
+* **Ctrl-Shift-P** object type
 
 * **Ctrl-W** extend selection (like Ctrl-A in Excel)
 * **Ctrl-Shift-W** shrint selection
 
 * **Shift-Enter** start new line
+
+# Debug
+
+1. Set an interrupt (red dot)
+    * Configure interrupt conditions (click on red dot)
+2. Start Debug session (instead of Run)
+3. F7 Jump step by step 
