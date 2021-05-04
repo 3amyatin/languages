@@ -40,3 +40,7 @@ python --version
 # install a package
 `pip install`
 `conda install`
+
+
+# package code
+* as a zip file https://docs.python.org/3/library/zipapp.html
