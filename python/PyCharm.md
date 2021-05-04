@@ -7,6 +7,7 @@
 * **Ctrl-E**  last opened files
 * **Ctrl-Alt-E** in Console: console history
 
+
 ## Run
 
 * **Alt-Shift-F10** All available run configurations (Shift to Debug)
@@ -14,10 +15,13 @@
 * **Shift-F10** Run last file
 * **Alt-Shift-E** Run current code line
 
-## Navigating in code
+## Search
 
-* **Ctrl-Alt-Left/Right** navigate between last opened files
-* Shift-Shift "history" - extra layer before git
+* **Shift-Shift** - search names
+* **Shift-Shift Shift-Shift** - including external libraries
+* **Shift-Shift** "local history" - extra layer before git
+
+## Code context help
 
 * cursor at object + **Ctrl-B** / Mouse click - go to object definition
 * **Ctrl-P** function arguments
@@ -25,10 +29,14 @@
 * **Ctrl-Shift-I** object definition
 * **Ctrl-Shift-P** object type
 
+# Navigation
+
+* **Ctrl-Alt-Left/Right** navigate between last opened files
 * **Ctrl-W** extend selection (like Ctrl-A in Excel)
 * **Ctrl-Shift-W** shrint selection
 
 * **Shift-Enter** start new line
+
 
 # Debug
 
