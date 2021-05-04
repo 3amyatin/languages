@@ -18,6 +18,7 @@
 * cursor at object + **Ctrl-B** / Mouse click - go to object definition
 * **Ctrl-P** function arguments
 * **Ctrl-Q** object documentation
+* **Ctrl-Shift-I** object definition
 * **Ctrl-Shift-P** object type
 
 * **Ctrl-W** extend selection (like Ctrl-A in Excel)
