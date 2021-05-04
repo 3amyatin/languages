@@ -33,7 +33,6 @@
 * **Ctrl-Alt-Left/Right** navigate between last opened files
 * **Ctrl-W** extend selection (like Ctrl-A in Excel)
 * **Ctrl-Shift-W** shrint selection
-
 * **Shift-Enter** start new line
 
 
