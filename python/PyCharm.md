@@ -7,11 +7,15 @@
 * **Ctrl-E**  last opened files
 * **Ctrl-Alt-E** in Console: console history
 
+## Run
+
+* **Alt-Shift-F10** All available run configurations (Shift to Debug)
 * **Ctrl-Shift-F10** Run this file
 * **Shift-F10** Run last file
 * **Alt-Shift-E** Run current code line
 
 ## Navigating in code
+
 * **Ctrl-Alt-Left/Right** navigate between last opened files
 * Shift-Shift "history" - extra layer before git
 
