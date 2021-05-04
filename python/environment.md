@@ -1,3 +1,7 @@
+# Articles
+* https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
+
+
 # what are we using now?
 ```
 where python # executable location in win
