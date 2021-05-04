@@ -3,7 +3,6 @@
 * **Shift-Shift**  main search for some command, option, file, class, commit, etc
 * **Ctrl-Shift-F**  search in all files
 * **Ctrl-Shift-R**  replace in all files
-
 * **Ctrl-E**  last opened files
 * **Ctrl-Alt-E** in Console: console history
 
