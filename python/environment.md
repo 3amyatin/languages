@@ -1,5 +1,23 @@
 # Articles
 * https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
+* https://venthur.de/2021-06-26-python-packaging.html
+
+
+# dependency management
+pipenv  # recommended by PyPA, but suxx
+poetry  # cool
+
+# distributions
+PyPI / pip
+Anaconda / conda
+
+# setup
+setup.py + requirements.txt  # currently best, others suxx
+
+setup.cfg
+pipfile + pipfile.lock
+pyproject.toml
+
 
 
 # what are we using now?
