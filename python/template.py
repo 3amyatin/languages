@@ -8,3 +8,7 @@ import seaborn as sns
 %matplotlib inline
 import matplotlib.pyplot as plt
 
+
+
+if __name__ == "__main__":
+  # test hier
