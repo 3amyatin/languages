@@ -17,6 +17,3 @@
   * Random forest
   * Boosting. Gradient boosting machine. Ключевые параметры модели
 
-
-# Template
-https://github.com/zzzamyatin/python_template
