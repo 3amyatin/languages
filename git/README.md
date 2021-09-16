@@ -10,3 +10,4 @@ man git-blame
 
 # Solving problems
 https://ohshitgit.com/
+https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/
