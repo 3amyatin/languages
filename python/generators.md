@@ -2,8 +2,8 @@
 ## Generator is a function
 * returns some value on yield
 * freezes until the next call
-  * next(genvar)
-  * for i in genvar: pass
+  * `next(genvar)`
+  * `for i in genvar: pass`
 
 ## Simple example
 ```python
