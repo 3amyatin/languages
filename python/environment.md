@@ -4,8 +4,8 @@
 
 
 # dependency management
-pipenv  # recommended by PyPA, but suxx
-poetry  # cool
+* pipenv  # recommended by PyPA, but suxx
+* poetry  # cool
 
 # distributions
 PyPI / pip
@@ -14,9 +14,9 @@ Anaconda / conda
 # setup
 setup.py + requirements.txt  # currently best, others suxx
 
-setup.cfg
-pipfile + pipfile.lock
-pyproject.toml
+* setup.cfg
+* pipfile + pipfile.lock
+* pyproject.toml
 
 
 
