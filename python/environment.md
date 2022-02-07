@@ -8,8 +8,8 @@
 * poetry  # cool
 
 # distributions
-PyPI / pip
-Anaconda / conda
+* PyPI / pip
+* Anaconda / conda
 
 # setup
 setup.py + requirements.txt  # currently best, others suxx
@@ -19,6 +19,14 @@ setup.py + requirements.txt  # currently best, others suxx
 * pyproject.toml
 
 
+# virtual envs
+1. virtualenv
+  * https://www.andreagrandi.it/2022/01/29/install-python-with-pyenv-and-pyenvvirtualenv-create-virtual-environment-with-specific-python-version-macos/
+2. conda
+
+
+# py binaries mgmt
+pyenv
 
 # what are we using now?
 ```
