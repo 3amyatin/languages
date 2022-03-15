@@ -25,6 +25,12 @@ if __name__ == "__main__":
 * https://realpython.com/pytest-python-testing/
 * https://docs.pytest.org/en/latest
 * :star: my template https://github.com/zzzamyatin/python_template/tree/main/tests
+* 
+
+ 
+## pytest-watch
+* test run every time a file is changed
+* `ptw /path/to/files/to/watch --run 'pytest /path/to/your/tests'`
 
 # unittest
 ```python
