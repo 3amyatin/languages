@@ -12,6 +12,8 @@
 * Anaconda / conda
 
 # setup
+* https://blog.pilosus.org/posts/2019/12/26/python-third-party-tools-configuration/
+
 setup.py + requirements.txt  # currently best, others suxx
 
 * setup.cfg
