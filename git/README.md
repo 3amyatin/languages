@@ -18,7 +18,7 @@ git restore --staged <specific_file>
 git reset # completely
 ```
 
-## get file state from HEAD
+## get file state from HEAD = rewrite workdir from repo, clear index
 ```
 git restore <specific_file>
 ```
