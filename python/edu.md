@@ -16,4 +16,5 @@
   * Деревья классификации и регрессии
   * Random forest
   * Boosting. Gradient boosting machine. Ключевые параметры модели
+* 99€ https://www.udemy.com/course/complete-python-developer-zero-to-mastery/
 
