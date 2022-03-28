@@ -17,4 +17,5 @@
   * Random forest
   * Boosting. Gradient boosting machine. Ключевые параметры модели
 * 99€ https://www.udemy.com/course/complete-python-developer-zero-to-mastery/
+* 0€ 3h https://www.freecodecamp.org/news/free-python-crash-course/ / https://youtu.be/8124kv-632k
 
