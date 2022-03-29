@@ -5,7 +5,7 @@
 
 # dependency management
 * pipenv  # recommended by PyPA, but suxx
-* poetry  # cool
+* poetry  # cool, also environment mgmt
 
 # distributions
 * PyPI / pip
@@ -22,9 +22,10 @@ setup.py + requirements.txt  # currently best, others suxx
 
 
 # virtual envs
-1. virtualenv
+1. [venv](https://docs.python.org/3/library/venv.html) (virtualenv) python native
   * https://www.andreagrandi.it/2022/01/29/install-python-with-pyenv-and-pyenvvirtualenv-create-virtual-environment-with-specific-python-version-macos/
-2. conda
+2. [conda](https://docs.conda.io/en/latest/)
+3. [Poetry](https://python-poetry.org/)
 
 
 # py binaries mgmt
@@ -50,11 +51,14 @@ conda env export > environment.yml
 Script [`conda-lock`](https://github.com/conda-incubator/conda-lock/) solves them.
 
 # create an environment
-`python -m venv ...`
-`conda env create -n envname -f environment.yml`
+```
+python -m venv <my_env_name>
+conda env create -n envname -f environment.yml
+```
 
 # activate an environment
 ```
+source <my_env_name>/bin/activate
 conda activate
 ```
 
