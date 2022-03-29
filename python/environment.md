@@ -58,7 +58,8 @@ conda env create -n envname -f environment.yml
 
 # activate an environment
 ```
-source <my_env_name>/bin/activate
+source <my_env_name>/bin/activate  # venv unix
+.\<my_env_name>\Scripts\activate  # venv win
 conda activate
 ```
 
