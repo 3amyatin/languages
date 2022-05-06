@@ -1,6 +1,19 @@
-* Type hinting [typing.md](typing.md)
+# Iterables
+* can be iterated over in a for-loop
+* https://www.pythonlikeyoumeanit.com/Module2_EssentialsOfPython/Iterables.html
 
-# Hack existing types
+## sequental
+lists, tuples, strings
+## non-sequental collections
+dict, set
+## enum
+https://rednafi.github.io/reflections/add-additional-attributes-to-enum-members-in-python.html
+
+
+## Type hinting
+[typing.md](typing.md)
+
+## Hack existing types
 ```python
 class Hid(str):
     pass
