@@ -1,5 +1,7 @@
 # Analytics with Python
 
+* free Python BI analytics platform https://www.atoti.io/
+
 ## Exploratory data analysis
 https://medium.com/trymito/3-python-packages-for-exploratory-data-analysis-c21d66369f6b
 
