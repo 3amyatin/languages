@@ -9,6 +9,7 @@ if __name__ == "__main__":
 
 2. with doctest
     * https://docs.python.org/3/library/doctest.html
+    * https://www.blog.pythonlibrary.org/2014/03/17/python-testing-with-doctest/
 
 3. separate test files with unittest, pytest  etc
     * https://realpython.com/python-testing/
