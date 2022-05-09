@@ -1,6 +1,7 @@
 # Articles
 * https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
 * https://venthur.de/2021-06-26-python-packaging.html
+* https://testdriven.io/blog/python-environments/
 
 
 # dependency management
