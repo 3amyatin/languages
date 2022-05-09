@@ -2,6 +2,8 @@
 
 * https://realpython.com/python-testing/
 * https://testdriven.io/blog/testing-python/
+* https://testdriven.io/blog/modern-tdd/
+* https://testdriven.io/blog/python-code-quality/
 
 
 # main()
