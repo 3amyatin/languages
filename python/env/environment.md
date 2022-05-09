@@ -2,7 +2,7 @@
 * https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
 * https://venthur.de/2021-06-26-python-packaging.html
 * https://testdriven.io/blog/python-environments/
-
+* workflows https://testdriven.io/blog/python-project-workflow/
 
 # dependency management
 * pipenv  # recommended by PyPA, but suxx
