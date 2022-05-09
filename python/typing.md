@@ -1,3 +1,10 @@
+# Type checking
+aka typing, type hints, type hinting
+
+* https://testdriven.io/blog/python-type-checking/
+* 
+
+
 ```python
 var: str = 'bla'
 
