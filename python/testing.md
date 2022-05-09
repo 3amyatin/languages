@@ -1,6 +1,7 @@
 # Testing
 
 * https://realpython.com/python-testing/
+* https://testdriven.io/blog/testing-python/
 
 
 # main()
