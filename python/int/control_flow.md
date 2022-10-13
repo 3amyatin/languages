@@ -1,5 +1,9 @@
 # if
 
+```python
+'Yes' if fruit == 'Apple' else 'No'
+```
+
 # for
 ```python
 for x in iter:

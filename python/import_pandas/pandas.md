@@ -5,6 +5,8 @@
   * User guide https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html
     * 10 mins https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
 
+* ETL with Pandas https://www.udemy.com/course/writing-production-ready-etl-pipelines-in-python-pandas/
+
 # Videos
 * https://www.youtube.com/watch?v=otCriSKVV_8
 * http://www.dataschool.io/easier-data-analysis-with-pandas/
