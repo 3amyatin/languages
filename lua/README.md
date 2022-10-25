@@ -1,9 +1,10 @@
 # Lua
 
-applied in Exasol
+applied in [Exasol](/exasol)
 
 ## manual
-http://www.lua.org/manual
+* http://www.lua.org/manual
+* http://www.lua.org/pil/contents.html
 
-## Colon syntactic sugar
+## Syntax
 ```x:bar(3, 4)``` === ```x.bar(x, 3, 4)```
