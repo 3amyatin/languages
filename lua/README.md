@@ -10,10 +10,34 @@ applied in [Exasol](/exasol)
 ```x:bar(3, 4)``` === ```x.bar(x, 3, 4)```
 
 # Debug
-output(var)
-output(type(var))
+* ```output(var)```
+* ```output(type(var))```
+
+# Variables
+## declare
+* var = 2 -- global scope
+* local var = 2 -- local scope (warning! also inside if, for, etc)
+ 
+## number
+* ```type(n) == 'number'```
+
+## string
+* ```type(s) == 'string'```
+* ```tostring(n)```
+
+# Control flow
+# if
+* 
+# for
+*
+
+
+
 
 # Functions
 * https://www.lua.org/pil/6.html
 * ```function foo (x) return 2*x end```
 * ```foo = function (x) return 2*x end```
+
+# OOP
+* ```x:bar(3, 4)``` === ```x.bar(x, 3, 4)```
