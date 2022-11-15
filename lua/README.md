@@ -24,6 +24,7 @@ applied in [Exasol](/exasol)
 ## string
 * ```type(s) == 'string'```
 * ```tostring(n)```
+* string.upper(s)
 
 # Control flow
 # if
@@ -31,7 +32,17 @@ applied in [Exasol](/exasol)
 # for
 *
 
-
+# Operators
+## Precedence
+high to low:
+1. ^
+2. not, - (negation)
+3. *, /, %
+4. +, -
+5. ..
+6. <, >, <=, >=, ~=, ==
+7. and
+8. or
 
 
 # Functions
