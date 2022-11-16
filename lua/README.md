@@ -3,8 +3,9 @@
 applied in [Exasol](/exasol)
 
 ## manual
-* http://www.lua.org/manual
+* http://www.lua.org/manual/5.4/
 * :star: http://www.lua.org/pil/contents.html
+* http://lua-users.org/wiki/LuaDirectory
 
 ## Syntax
 ```x:bar(3, 4)``` === ```x.bar(x, 3, 4)```
