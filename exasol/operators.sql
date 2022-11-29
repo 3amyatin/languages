@@ -1,4 +1,5 @@
 -- symmetric behaviour 
+-- https://docs.exasol.com/db/latest/sql_references/predicates/logicaljoinpredicates.htm
 
 select * from (
 
@@ -21,3 +22,4 @@ select * from (
 where EXPRESSION is not null
 order by 2,1
 ;
+
