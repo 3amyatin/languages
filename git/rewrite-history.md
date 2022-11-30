@@ -15,7 +15,7 @@
 ~~~
 git rebase -i HEAD~5  # well 1-2 commits before
 # put "edit" for a commit to be split, save
-git reset HEAD~1
+git reset HEAD~1  # or HEAD^
 git add -- ** '!herofilespec'
 git c -m "Old stuff"
 git add -- herofilespec
