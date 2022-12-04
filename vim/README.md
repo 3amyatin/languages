@@ -19,8 +19,37 @@
     10→ | l     moves 10 characters right
     40← | h     moves 40 characters left
 
+    w       goto to start of next text-word
+    W       goto to start of next symbolic-word
+    b       goto to start of previous text-word
+    B       goto to start of previous symbolic-word
+    3w
+
+
     u       undo
     Ctrl R  redo
+
+    v       VISUAL mode for selecting
+    V       selects whoole lines
+
+    y       copY (Ctrl-C)
+    yy      copY the whole line
+    Y       copY the whole line
+
+    p       paste after cursor, 10p also works (Ctrl-V)
+    P       paste before cursor
+
+    d       deletes the selection
+    D       deletes the line after cursor
+    dd      deletes the whole line
+    diw     delete inner word
+    dw      deletes from cursor to the end of the word
+    db      deletes from cursor to the beginning of the word
+    una word
+    d3w     deletes 3 words
+
+    c       same as d + switch to INSERT mode
+
 
 
     :set number     enables line numbering

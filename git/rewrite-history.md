@@ -26,3 +26,15 @@ git rebase -i HEAD~3
 git log --oneline --name-only HEAD~2..  # enjoy
 ~~~
 
+## clear remote history
+    set REMOTEURL $(cat .git/config | grep -Eo "https?://\S*")  # fish
+    REMOTEURL=$(cat .git/config | grep -Eo "https?://\S*")  # bash
+    
+    rm -rf .git
+    git init
+    git add .
+    git commit -m "Initial commit"
+    git remote add origin $REMOTEURL
+    git push -u --force origin main
+
+
