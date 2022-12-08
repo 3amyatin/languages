@@ -1,5 +1,4 @@
 # Languages
-these are mine language cheatsheets
 
-
+Cheatsheets for languages I speak
 https://zzzamyatin.github.io/languages/
