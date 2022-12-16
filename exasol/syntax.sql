@@ -1,4 +1,9 @@
--- comments syntax https://docs.exasol.com/db/latest/sql_references/basiclanguageelements.htm
+/*
+  https://docs.exasol.com/db/latest/sql_references/basiclanguageelements.htm
+  -- comments
+  -- identifiers (variables)
+  -- regex
+*/
 
 -- inline comment lasts until end of the line
 -- use for: SMALL comments and SMALL code deactivation
