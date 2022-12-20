@@ -8,6 +8,7 @@
 * :star: avoid USING ()
 * do JOIN on number fields, not on varchar
 * avoid JOIN ON criteria with data transformation
+* implement indexes with [DISTRIBUTE BY]() keyword
 
 # DML = INSERT
 * slower with indexes → avoid unused primary keys
