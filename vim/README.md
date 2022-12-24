@@ -59,3 +59,7 @@
     :set shiftwidth=4
     
     :colorscheme
+
+
+# Edu
+* https://youtu.be/RZ4p-saaQkc
