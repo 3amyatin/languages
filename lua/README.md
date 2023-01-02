@@ -1,56 +1,25 @@
 # Lua
+Lua means moon in portuguese
 
-applied in [Exasol](/exasol)
+Lua is very simple, open source, fast to learn and used as embedded languages in other software
 
-## manual
+Lua is a main scripting language in [Exasol](/exasol)
+
+
+## docs
 * http://www.lua.org/manual/5.4/
 * :star: http://www.lua.org/pil/contents.html
 * http://lua-users.org/wiki/LuaDirectory
 * exasol specific https://docs.exasol.com/db/latest/database_concepts/scripting.htm
 
-## Syntax
-```x:bar(3, 4)``` === ```x.bar(x, 3, 4)```
 
-# Debug
-* ```output(var)```
-* ```output(type(var))```
+## IDE
 
-# Variables
-## declare
-* var = 2 -- global scope
-* local var = 2 -- local scope (warning! also inside if, for, etc)
- 
-## number
-* ```type(n) == 'number'```
-
-## string
-* ```type(s) == 'string'```
-* ```tostring(n)```
-* string.upper(s)
-
-# Control flow
-# if
-* 
-# for
-*
-
-# Operators
-## Precedence
-high to low:
-1. ^
-2. not, - (negation)
-3. *, /, %
-4. +, -
-5. ..
-6. <, >, <=, >=, ~=, ==
-7. and
-8. or
+* online https://www.lua.org/demo.html
+* desktop https://studio.zerobrane.com/
 
 
-# Functions
-* https://www.lua.org/pil/6.html
-* ```function foo (x) return 2*x end```
-* ```foo = function (x) return 2*x end```
+## debug
+    output(var)
+    output(type(var))
 
-# OOP
-* ```x:bar(3, 4)``` === ```x.bar(x, 3, 4)```
