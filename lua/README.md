@@ -13,6 +13,8 @@ Lua is a main scripting language in [Exasol](/exasol)
 * exasol specific https://docs.exasol.com/db/latest/database_concepts/scripting.htm
 
 
+
+
 ## IDE
 
 * online https://www.lua.org/demo.html
@@ -20,6 +22,13 @@ Lua is a main scripting language in [Exasol](/exasol)
 
 
 ## debug
+    print(var1, var2)
     output(var)
     output(type(var))
+    output(table.concat(var, ','))
 
+## Libraries
+* math
+* string
+* table
+* unicode
