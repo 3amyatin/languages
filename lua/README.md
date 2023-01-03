@@ -7,8 +7,8 @@ Lua is a main scripting language in [Exasol](/exasol)
 
 
 ## docs
-* http://www.lua.org/manual/5.4/
-* :star: http://www.lua.org/pil/contents.html
+* easy :star: http://www.lua.org/pil/contents.html
+* ref http://www.lua.org/manual/5.4/
 * http://lua-users.org/wiki/LuaDirectory
 * exasol specific https://docs.exasol.com/db/latest/database_concepts/scripting.htm
 
