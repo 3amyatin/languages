@@ -32,3 +32,7 @@ Free webinars "Office hours" https://asktom.oracle.com/pls/apex/f?p=100:501
 # Tools
 ## SQL developer
 https://docs.oracle.com/en/database/oracle/sql-developer
+
+## sqlplus
+cli client
+https://en.wikipedia.org/wiki/SQL_Plus

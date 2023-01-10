@@ -12,6 +12,8 @@ cool Analytical DBMS
 * Exasol Community Edition - free
 * Exasol Public Demo Server
 
+## IDE
+https://docs.exasol.com/db/latest/connect_exasol/sql_clients.htm
 
 ## Education
 * ExaAcademy https://exacademy.exasol.com/courses
