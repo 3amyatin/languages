@@ -18,11 +18,11 @@ select
 
   decode() -- like case
 
-  nvl(VAR1, VAR2),      -- === case when VAR1 is null then VAR2 else VAR1 end -- "Null Value"
+  nvl(VAR1, VAR2),      -- === case when VAR1 is null then VAR2 else VAR1 end -- VAR1 or VAR2
   nvl2(VAR1, VAR2, VAR3), -- = case when VAR1 is null then VAR3 else VAR2 end -- "Null Value"
-  nullif(VAR1, VAR2),   -- === case when VAR1 = VAR2  then NULL else VAR1 end
-  nullifzero(VAR),      -- === case when VAR = 0      then NULL else VAR  end
-  zeroifnull(VAR),      -- === case when VAR is null  then 0    else VAR  end
+  nullif(VAR1, VAR2),   -- === case when VAR1 = VAR2  then NULL else VAR1 end -- converts some_nulls (VAR2) to NULL
+  nullifzero(VAR),      -- === case when VAR = 0      then NULL else VAR  end -- converts 0 to NULL
+  zeroifnull(VAR),      -- === case when VAR is null  then 0    else VAR  end -- converts NULL to 0
 
 
   coalesce(VAR1, VAR2, VAR3, 'ups') --- returns first argument which IS NOT NULL 
