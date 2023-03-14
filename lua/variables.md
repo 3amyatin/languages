@@ -68,7 +68,9 @@ os.time()
     s:sub(pos_from, pos_to) -- substract
     -- :bulb: negative position counts from the end
     -- :bulb: equals SUBSTR(s, a, b-a+1) in SQL
-
+    
+    # search
+    if columns_list:find('AUSWBIS') ~= nil then
 
 ---
 ## arrays
