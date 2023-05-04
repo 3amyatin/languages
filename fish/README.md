@@ -1,7 +1,7 @@
 # fish shell
 https://fishshell.com/
 
-
+* https://devhints.io/fish-shell
 * https://github.com/JorgeBucaran/awesome-fish 
 * https://github.com/jorgebucaran/cookbook.fish
 
