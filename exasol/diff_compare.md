@@ -1,14 +1,14 @@
 # Compare two tables
 
     with t1 as ( select 
-      to_char(DGD_BGVG_VTNR) as DGD_BGVG_VTNR,
-      DGD_DATENSTAND
-    from DWH_OUT.SOURCE_MAP_DWT_GRUNDDATEN_V ),
+      to_char(col1) as col1,
+      col2
+    from t01 ),
 
     t2 as ( select 
-      MGD_BGVG_VTNR,
-      MGD_DATENSTAND
-    from MAK360DATA.MAK_GRUNDDATEN_V ),
+      col3,
+      col4
+    from t02 ),
 
     t1_nur as ( select 'T1 only' as SRC, t.* from ( select * from t1 minus select * from t2 ) as t ),
     t2_nur as ( select 'T2 only' as SRC, t.* from ( select * from t2 minus select * from t1 ) as t ),
