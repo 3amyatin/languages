@@ -1,6 +1,7 @@
 # Edu
 
 ## basics
+* Harward CS50 16h https://www.freecodecamp.org/news/learn-python-from-harvard-university/ 
 * https://www.freecodecamp.org/news/python-code-examples-simple-python-program-example/
 * [Learn Python - Full Course for Beginners](https://youtu.be/rfscVS0vtbw) 4:30:00, 22.5M views @ [freeCodeCamp.org](http://freeCodeCamp.org) 3.2M subs 
 * 0€ 3h https://www.freecodecamp.org/news/free-python-crash-course/ / https://youtu.be/8124kv-632k
