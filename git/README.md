@@ -8,6 +8,9 @@ git help blame
 man git-blame
 ```
 
+# get a file from history to another location
+    git show commit:filepath > location
+
 
 
 # todo

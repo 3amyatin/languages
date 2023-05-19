@@ -1,9 +1,9 @@
 # Lua
-Lua means moon in portuguese
+Lua means moon in portuguese.
 
-Lua is very simple, open source, fast to learn and used as embedded languages in other software
+Lua is very simple, open source, fast to learn and used as embedded languages in other software.
 
-Lua is a main scripting language in [Exasol](/exasol)
+Lua is a main scripting language in [Exasol](/exasol).
 
 
 ## docs
