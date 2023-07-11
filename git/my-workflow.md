@@ -1,5 +1,7 @@
 # My git workflow
 
+## principles
+
 
 ## Setup
     cd WORKDIR_PARENT
@@ -53,3 +55,9 @@
     git merge --no-ff # into master, not rebase
     # merge commit message explains what was changed
     # commits' messages explains how it was changed
+
+## inspirational sources
+* OneFlow [endoflineblog.com/__gitflow-considered-harmful__](https://www.endoflineblog.com/gitflow-considered-harmful)
+* ThreeFlow [Title](https://laptrinhx.com/a-branching-strategy-simpler-than-gitflow-three-flow-145270038/)
+* GitFlow -- the classics
+    * [atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
