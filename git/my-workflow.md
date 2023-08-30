@@ -56,6 +56,21 @@
     # merge commit message explains what was changed
     # commits' messages explains how it was changed
 
+    git tag Release2.23-Sprint42
+    git push && git push --tags
+    
+    # pull for one developer or a small team
+    git switch $MASTERBRANCH
+    git merge $FEATUREBRANCH
+    git push && git push --tags
+    git switch -
+    git merge $MASTERBRANCH
+
+    # pull request for big team
+    # at Github
+
+
+
 ## inspirational sources
 * OneFlow [endoflineblog.com/__gitflow-considered-harmful__](https://www.endoflineblog.com/gitflow-considered-harmful)
 * ThreeFlow [Title](https://laptrinhx.com/a-branching-strategy-simpler-than-gitflow-three-flow-145270038/)
