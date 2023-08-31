@@ -1,4 +1,5 @@
-# SELECT 
+# SELECT
+https://docs.exasol.com/db/latest/sql/select.htm
 
 ## Legend
     lowcaps    control words
@@ -39,15 +40,22 @@
     [left | right | inner | full] join SCHEMATABLE as ALIAS (on CONDITION | using (COL_LIST))
 
 ## where
-    conditions
+    -- conditions before group by
     [start with CONDITION] connect by [nocycle] CONDITION [start with CONDITION]
 ## preferring
 ## group by
     1, VAR2, tab3.VAR3, local.VAR4, EXPR
 ## having
-    group_by_conditions
+    -- conditions after group by
 ## window
 ## qualify
+    -- conditions with analytic functions
+    -- evaluated after having
 ## order by
     (POS | EXPR | ALIAS) [asc | desc] [nulls (first|last)]
 ## limit
+
+
+## union
+## intersect
+## minus
