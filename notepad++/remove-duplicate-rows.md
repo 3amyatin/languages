@@ -16,4 +16,6 @@ Regular expression | [x]
 `(?=.*^\1$)` |positive lookahead assertion. <br /> A row is only matched, when there is exactly the same row following somewhere else in the file
 
 
-[^1]: http://stackoverflow.com/questions/3958350/removing-duplicate-rows-in-notepad 
+## See
+* [regex](/regex)
+* http://stackoverflow.com/questions/3958350/removing-duplicate-rows-in-notepad 
