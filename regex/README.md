@@ -15,3 +15,6 @@ https://npp-user-manual.org/docs/searching/#regular-expressions
     getsegidfakt[\s\n]*\((?![^\)]+Zamyatin)[^\)]+\)
 
 Doesn't work with nested brackets :(
+
+### remove duplicates in Notepad++
+[notepad++/remove-duplicate-rows.md](/notepad++/remove-duplicate-rows.md)
