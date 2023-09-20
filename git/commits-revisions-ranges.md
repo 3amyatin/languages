@@ -9,8 +9,9 @@ HEAD~1 | wow
 
 git log .. = git diff ...
 
+![image](https://github.com/zzzamyatin/languages/assets/10171333/379bb119-125b-4665-9ac0-e819babe2c88)
+
 ## Double Dot
-Z
 * The most common range specification
 * reachable from one commit but aren’t reachable from another
 
