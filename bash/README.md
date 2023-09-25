@@ -2,6 +2,15 @@
 https://devhints.io/bash
 https://ss64.com/bash
 
+    history               # commands history
+    cat $HISTFILE         # the same
+
+    history 10    # last 10 commands
+    history -c    # clear history
+
+  !100            # 100th command 
+  !-2             # preprevious command
+
     Arrow up  recall last command
     Ctrl-P    recall last command
 
@@ -29,3 +38,19 @@ https://ss64.com/bash
     Ctrl-K    delete all right from cursor (sits right on keyboard)
 
     Ctrl-KU  delete current line
+
+## Environment variables
+https://www.cherryservers.com/blog/how-to-set-list-and-manage-linux-environment-variables
+
+* shell variables
+* environment variables
+* and shell functions
+
+      set | grep -i bash
+
+      compgen -v    # list names only
+
+### Set env var
+SANDWICH=Pepper
+SANDWICH='Pepper And Egg'
+export SANDWICH='Pepper And Egg'
