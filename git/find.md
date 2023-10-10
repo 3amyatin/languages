@@ -1,4 +1,4 @@
-# Search in git
+# Find anything in git
 https://git-scm.com/book/en/v2/Git-Tools-Searching
 
 ## search commit messages
