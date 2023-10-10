@@ -5,6 +5,9 @@
     git diff --staged   # index .. HEAD
     git diff HEAD       # workdir .. HEAD
 
+![image](https://github.com/zzzamyatin/languages/assets/10171333/d5dd15ec-6ba9-453d-837f-b4f6e14d3375)
+
+
 ## format
     git diff                  # line level by default
     git diff --color-words    # word level
