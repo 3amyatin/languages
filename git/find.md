@@ -2,7 +2,7 @@
 https://git-scm.com/book/en/v2/Git-Tools-Searching
 
 ## search commit messages
-    git log -i --grep="facebook"
+    git log -i --grep facebook
 
 ## search files in working dir    
     git grep --name-only -i TEXT
