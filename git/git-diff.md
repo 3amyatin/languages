@@ -5,6 +5,8 @@
     git diff --staged   # index .. HEAD
     git diff HEAD       # workdir .. HEAD
 
+⚠️ Git Diff doesn't [show](https://stackoverflow.com/questions/855767/can-i-use-git-diff-on-untracked-files) **untracked** files!
+
 ![image](https://github.com/zzzamyatin/languages/assets/10171333/d5dd15ec-6ba9-453d-837f-b4f6e14d3375)
 
 
