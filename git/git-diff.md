@@ -1,4 +1,7 @@
 # git diff
+https://git-scm.com/docs/git-diff
+
+![image](https://github.com/zzzamyatin/languages/assets/10171333/d5dd15ec-6ba9-453d-837f-b4f6e14d3375)
 
     git diff            # workdir .. index = uncommitted changes
     git diff --cached   # index .. HEAD
@@ -7,13 +10,12 @@
 
 ⚠️ Git Diff doesn't [show](https://stackoverflow.com/questions/855767/can-i-use-git-diff-on-untracked-files) **untracked** files!
 
-![image](https://github.com/zzzamyatin/languages/assets/10171333/d5dd15ec-6ba9-453d-837f-b4f6e14d3375)
-
 
 ## format
     git diff                  # line level by default
     git diff --color-words    # word level
     git diff --color-words=.  # letter level
+
 
 ## see changes in one commit
     git diff COMMIT~ COMMIT  
