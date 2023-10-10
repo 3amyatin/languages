@@ -1,9 +1,14 @@
 # git diff
 
-    git diff            # workdir .. index
+    git diff            # workdir .. index = uncommitted changes
     git diff --cached   # index .. HEAD
     git diff --staged   # index .. HEAD
     git diff HEAD       # workdir .. HEAD
+
+## format
+    git diff                  # line level by default
+    git diff --color-words    # word level
+    git diff --color-words=.  # letter level
 
 ## see changes in one commit
     git diff COMMIT~ COMMIT  
