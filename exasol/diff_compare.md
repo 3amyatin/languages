@@ -10,18 +10,17 @@
       col4
     from t02 ),
 
-    t1_nur as ( select 'T1 only' as SRC, t.* from ( select * from t1 minus select * from t2 ) as t ),
-    t2_nur as ( select 'T2 only' as SRC, t.* from ( select * from t2 minus select * from t1 ) as t ),
-    t1_t2  as ( select 'both' as SRC, t.* from ( select * from t2 union select * from t1 ) as t ),
+    t1_nur as ( select 'T1 only' as SRC, t.* from ( select * from t1 minus     select * from t2 ) as t ),
+    t2_nur as ( select 'T2 only' as SRC, t.* from ( select * from t2 minus     select * from t1 ) as t ),
+    t1_t2  as ( select 'both'    as SRC, t.* from ( select * from t2 intersect select * from t1 ) as t ),
 
-    t1_t2_src as ( select * from ( 
+    t1_t2_src as ( 
                   select * from t1_t2
         union all select * from t1_nur
         union all select * from t2_nur
-      ) order by 2
     )
 
-    -- select * from t1_52_src;
+    --select * from t1_52_src order by 2;
 
     select SRC, count(*)
     from t1_t2_src
