@@ -25,6 +25,9 @@
       -v postgres-data:/var/lib/postgresql/data \
       -d postgres
 
+    $ docker-compose -f stack.yml up
+    $ docker stack deploy -c stack.yml postgres
+
 ## Work with containers
     $ docker ps           # running containers only
     $ docker ps -a        # all available containers
