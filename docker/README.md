@@ -91,17 +91,8 @@ see [Docker Compose](docker-compose.md)
 
     $ docker logs p1
 
-
 ## Networks
-https://docs.docker.com/engine/userguide/networking/dockernetworks/
-    $ docker networks ls
-    bridge    # where containers live by default
-    host
-    none
-
-    $ docker network create MYNETWORK  # with bridge driver by default
-    :!: containers in different networks can't communicate
-    
+see [docker-network](docker-network.md)
 
 ## Clean up
     $ docker stop p1
@@ -109,3 +100,4 @@ https://docs.docker.com/engine/userguide/networking/dockernetworks/
     $ docker container prune            # rm all stopped containers
     $ docker rmi postgres
     $ docker volume rm postgres-data
+    $ docker network rm NETWORKNAME
