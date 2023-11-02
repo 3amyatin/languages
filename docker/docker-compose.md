@@ -3,6 +3,7 @@ see [Docker](README.md)
 
 https://docs.docker.com/compose/overview  
 https://docs.docker.com/compose/compose-file  
+https://github.com/docker/awesome-compose
 
 ## build images
 
