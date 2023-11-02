@@ -2,6 +2,7 @@
 
 * https://docker-curriculum.com/
 * https://docs.docker.com/get-started
+* https://github.com/veggiemonk/awesome-docker
 * course https://www.udemy.com/course/learn-docker/
 * https://www.smarthomebeginner.com/best-docker-containers-for-home-server/
 * https://www.smarthomebeginner.com/docker-media-server-2022/
