@@ -7,6 +7,21 @@
 * https://www.smarthomebeginner.com/best-docker-containers-for-home-server/
 * https://www.smarthomebeginner.com/docker-media-server-2022/
 
+## reverse proxy
+* https://github.com/lucaslorentz/caddy-docker-proxy
+* auth https://t.me/c/1675809627/2662
+
+## orchestration
+Kubernetes: https://www.udemy.com/course/learn-kubernetes/
+
+## automatic update
+* https://containrrr.dev/watchtower/
+
+## dashboard
+https://github.com/pawelmalak/flame
+
+
+
 ## Images
     $ docker search postgres
     $ docker pull postgres
