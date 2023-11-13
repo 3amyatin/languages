@@ -55,7 +55,21 @@ https://docs.exasol.com/db/latest/sql/select.htm
     (POS | EXPR | ALIAS) [asc | desc] [nulls (first|last)]
 ## limit
 
+## union all
+https://docs.exasol.com/db/latest/sql/table_operators.htm
+A+B
 
 ## union
-## intersect
+https://docs.exasol.com/db/latest/sql/table_operators.htm
+A+B
+without duplicates
+
 ## minus
+A-B  
+without duplicates  
+https://docs.exasol.com/db/latest/sql/table_operators.htm
+
+## intersect
+A*B  
+without duplicates  
+https://docs.exasol.com/db/latest/sql/table_operators.htm
