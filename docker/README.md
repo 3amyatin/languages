@@ -8,11 +8,13 @@
 * https://www.smarthomebeginner.com/docker-media-server-2022/
 
 ## reverse proxy
-* https://github.com/lucaslorentz/caddy-docker-proxy
+* caddy https://github.com/lucaslorentz/caddy-docker-proxy
+* traefik https://github.com/traefik/traefik
 * auth https://t.me/c/1675809627/2662
 
 ## orchestration
-Kubernetes: https://www.udemy.com/course/learn-kubernetes/
+Kubernetes: https://www.udemy.com/course/learn-kubernetes  
+Portainer: https://github.com/portainer/portainer
 
 ## automatic update
 * https://containrrr.dev/watchtower/
