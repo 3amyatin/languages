@@ -7,3 +7,11 @@ Masterclass in Udemy: https://www.udemy.com/course/snowflake-masterclass/
 
 Getting Started https://docs.snowflake.com/user-guide/getting-started-tutorial  
 Quick tour https://docs.snowflake.com/user-guide/ui-snowsight-quick-tour  
+
+
+## SnowSQL
+https://docs.snowflake.com/en/user-guide/snowsql  
+
+
+## Connections 
+https://docs.snowflake.com/en/user-guide/ecosystem-etl  
