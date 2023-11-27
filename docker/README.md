@@ -112,6 +112,12 @@ see [Docker Compose](docker-compose.md)
 ## Networks
 see [docker-network](docker-network.md)
 
+## Cool examples
+    $ docker run -it --rm alpine         # start fast & simple linux to try
+    $ docker run --rm alpine ping ya.ru  # run command and exit
+    
+
+
 ## Clean up
     $ docker stop p1
     $ docker rm p1
