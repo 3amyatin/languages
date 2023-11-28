@@ -26,9 +26,7 @@
 ## Create a feature branch
     git fetch
     git switch --no-track -c $FEATUREBRANCH origin/$MASTERBRANCH
-    # git switch -c $FEATUREBRANCH origin/$MASTERBRANCH
     git push --set-upstream origin $FEATUREBRANCH
-    # git push
 
 ## Daily
 

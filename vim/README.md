@@ -1,5 +1,8 @@
 # VIM
 
+https://t.me/c/1675809627/2593
+
+
 
     :q    quit
     :q!     quit without changes

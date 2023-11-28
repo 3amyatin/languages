@@ -1,8 +1,10 @@
 # Commits
+https://git-scm.com/docs/gitrevisions
+https://git-scm.com/docs/revisions
 https://git-scm.com/book/tr/v2/Git-Tools-Revision-Selection
 
 
-HEAD  tip of current branch
+HEAD  tip of current branch  
 HEAD~1 | wow
 
 # Ranges

@@ -4,3 +4,4 @@
 
 # Principles
 * SOLID https://www.freecodecamp.org/news/solid-principles-for-programming-and-software-design/
+* Versioning https://semver.org/
