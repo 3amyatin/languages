@@ -5,4 +5,4 @@ Markup https://github.com/github/markup
 
 
 ## Edu
-https://github.com/skills
+https://skills.github.com/
