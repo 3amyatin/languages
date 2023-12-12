@@ -4,9 +4,13 @@ https://help.github.com/en/github/using-git/ignoring-files
 https://github.com/github/gitignore  
 
 ```
+
+# command level
+nano .gitignore               # folder level,  general,                    synced with remote
+nano .git/info/exclude        # workdir level, user specific workflow, NOT SYNCED with remote
+git config core.excludesFile  # general ignorance, temp and backup files
+
 file_pattern_to_exclude >> .gitignore
-nano .gitignore 
-nano .git/info/exclude
 
 git rm –cached <filename> # stop tracking the file 
 git rm -r --cached . 
