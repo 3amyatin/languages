@@ -5,6 +5,15 @@ https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/
 ## undo the last commit
     git reset --soft HEAD~
 
+## commit to wrong branch
+    git switch wront_branch
+    git reset HEAD~ --soft
+    git stash
+    git switch right_branch
+    git stash pop
+    git add . # or add individual files
+    git commit -m "your message here"
+
 ## clear index, keep workdir (unstage)
     git restore --staged <specific_file>
     git reset # completely
