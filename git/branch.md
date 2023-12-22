@@ -9,5 +9,18 @@ https://git-scm.com/docs/git-branch
     git rev-parse --symbolic-full-name @{push}
 
 ## Fix
+
+### rename branch
+
+    git switch $OLD
+    git branch -m $NEW
+    git push origin --delete $OLD
+    git push origin -u $BRANCH
+
+    # v2
+    git switch $OLD
+    git push origin :$OLD $NEW
+    git push origin -u $BRANCH
+
 ### delete remote branch
     git push origin :REMOTEBRANCHNAME
