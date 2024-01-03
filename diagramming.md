@@ -1,11 +1,8 @@
 # Diagramming
 
-
-
 ## Text to diagram
 * Kroki - Online tool and API for many diagramming languages https://kroki.io/
 * D2 https://play.d2lang.com/
-
 
 ### interactive
 * https://www.ilograph.com/
@@ -16,6 +13,7 @@
 * [Penrose](https://penrose.cs.cmu.edu/) - complex and generic
 * D2 - many use cases
 * PlantUML
+  * https://plantuml.com/#google_vignette
 * GraphViz [edotor](https://edotor.net), [viz-js](http://viz-js.com/), [webgraphviz](http://www.webgraphviz.com/)
 * BlockDiag
 * Nomnoml (UML)
@@ -34,7 +32,7 @@
 
 
 ### Gantt / Project
-* Mermaid
+* [Mermaid.js.org](https://mermaid.js.org/)
 * [Markwhen](https://markwhen.com/)
 
 ### user
@@ -58,7 +56,12 @@
 * https://github.com/sw-yx/spark-joy/blob/master/README.md#diagramming
 
 
-# Draw diagrams
+## Draw diagrams
 * free draw in ASCII [Textik](https://textik.com), [ASCIIflow](https://asciiflow.com)
 * draw block diagrams in fancy handwriting style https://excalidraw.com/
+* simple https://flowchart.fun/
+
+
+
+## Todo
 
