@@ -28,3 +28,30 @@
     union all select 'T1 total', count(*) from t1
     union all select 'T2 total', count(*) from t2
     ;
+
+# Compare columns of two tables
+
+    with T1 as (
+      select COLUMN_NAME, COLUMN_TYPE
+      from EXA_ALL_COLUMNS
+      where COLUMN_SCHEMA = 'A' and COLUMN_TABLE = 'B'
+    ),
+    
+    T2 as (
+      select COLUMN_NAME, COLUMN_TYPE
+      from EXA_ALL_COLUMNS
+      where COLUMN_SCHEMA = 'A' and COLUMN_TABLE = 'C' and COLUMN_NAME != 'D'
+    )
+    
+    select
+      COLUMN_NAME,
+      listagg(case when T='T1' then COLUMN_TYPE end) as T1,
+      listagg(case when T='T2' then COLUMN_TYPE end) as T2
+    from (
+                select 'T1' as T, T1_only.* from (select * from T1 minus select * from T2) as T1_only
+      union all select 'T2',      T2_only.* from (select * from T2 minus select * from T1) as T2_only
+    ) 
+    where 1=1
+    group by COLUMN_NAME
+    order by COLUMN_NAME
+    ;
