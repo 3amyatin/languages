@@ -45,8 +45,8 @@
     
     select
       COLUMN_NAME,
-      listagg(case when T='T1' then COLUMN_TYPE end) as T1,
-      listagg(case when T='T2' then COLUMN_TYPE end) as T2
+      listagg(case T when 'T1' then COLUMN_TYPE end) as T1,
+      listagg(case T when 'T2' then COLUMN_TYPE end) as T2
     from (
                 select 'T1' as T, T1_only.* from (select * from T1 minus select * from T2) as T1_only
       union all select 'T2',      T2_only.* from (select * from T2 minus select * from T1) as T2_only
