@@ -58,8 +58,9 @@ macOS and in Win hides docker in a VM behind the NAT
 ## ipvlan
 * own physical ip-address for each container
 
-
-
-
 ## clean up
     $ docker network rm NAME|ID
+
+## test connectivity inside containers
+    (echo >/dev/tcp/mysql/3306) &>/dev/null && echo "open" || echo "closed"
+
