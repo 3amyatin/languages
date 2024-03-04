@@ -7,6 +7,9 @@ https://ss64.com/bash
 
     history 10    # last 10 commands
     history -c    # clear history
+    history -d 123 # clear specifig entry in history
+    set +o history  # pause history
+    set -o history  # resume history
 
   !100            # 100th command 
   !-2             # preprevious command
